@@ -1,2 +1,46 @@
 @import './reset.css';
 @import './responsive.css';
+
+/* 
+debug
+*/
+
+.debug nav {
+  background-color: black;
+}
+
+.debug footer {
+  height: 100px;
+  width: inherit;
+  background-color: grey;
+}
+
+.debug .container-major {
+  flex-grow: 1;
+  padding: 20px;
+  overflow: auto;
+  flex-wrap: wrap;
+}
+
+.debug main {
+  background-color: #141922;
+  height: calc(100vh - 100px);
+}
+
+/* Common */
+
+.flex {
+  display: flex;
+}
+
+.bix {
+  width: 250px;
+  height: 250px;
+  background-color: red;
+  margin: 20px;
+}
+
+.debug .demo-box {
+  width: 9.375rem;
+  height: 15.625rem;
+}
