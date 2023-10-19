@@ -8,7 +8,7 @@ da 0 a 768
     max-width: 960px;
   }
   .container-major .raw-album .col-album {
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 15px);
   }
   .raw-album .col-album h3 {
     font-size: 16px;
@@ -25,7 +25,7 @@ da 0 a 768
     max-width: 720px;
   }
   .container-major .raw-album .col-album {
-    width: calc(100% / 2);
+    width: calc(100% / 2 - 15px);
     font-size: 11px;
   }
   .raw-album .col-album h3 {

@@ -180,13 +180,13 @@ MAin
 }
 
 .container-major .raw-album {
-  padding: 0 20px;
+  padding: 0px 20px;
   flex-wrap: wrap;
+  gap: 15px;
 }
 
 .container-major .raw-album .col-album {
-  width: calc(100% / 6);
-  padding: 10px;
+  width: calc(100% / 6 - 15px);
   text-align: center;
   line-height: 1.7;
 }
@@ -197,4 +197,23 @@ MAin
 
 .raw-album .col-album h3 {
   font-size: 1rem;
+}
+
+.title-raw {
+  margin: 20px 0;
+}
+
+.title-raw h2 {
+  padding: 0;
+  line-height: 1.4;
+}
+
+.raw-album.suggeriti {
+  padding: 0;
+  width: 100%;
+}
+
+.raw-album.suggeriti .radius img {
+  object-fit: cover;
+  border-radius: 50%;
 }
