@@ -1,0 +1,56 @@
+/* 
+***********
+da 0 a 768 
+***********
+*/
+@media screen and (max-width: 768px) {
+}
+
+/* 
+***********
+da 0 a 576 
+***********
+*/
+@media screen and (max-width: 576px) {
+  nav {
+    width: 50px;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 0;
+    overflow: hidden;
+  }
+
+  .menu li {
+    padding-left: 0;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #logo-large {
+    display: none;
+  }
+
+  #logo-small {
+    display: block;
+  }
+
+  .playlist {
+    display: none;
+  }
+
+  nav ul li span {
+    display: none;
+  }
+
+  .nav-container2 span {
+    display: none;
+  }
+
+  .nav-container2 .opzioni {
+    border-bottom: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -27,70 +27,145 @@
 
     <!-- My Css -->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
     <!-- My Css -->
   </head>
-  <body class="debug">
-    <main class="flex">
-      <nav class="flex">
-        <div class="log">
-          <img src="img/logo.svg" alt="" id="logo" />
-        </div>
 
-        <ul>
+  <!-- WEB APP SPOTIFY -->
+  <body class="debug">
+    <!-- Contenitore parte top -->
+    <main class="flex">
+      <!-- Nav bar aside left -->
+      <nav class="flex">
+        <!-- Contenitore Loghi  -->
+        <div class="logo">
+          <!-- Logo large da 576 a proseguire -->
+          <img src="img/logo.svg" alt="spotify Web" id="logo-large" />
+          <!-- Logo small da 0 a 576 -->
+          <img src="img/logo-small.svg" alt="spotifyweb" id="logo-small" />
+        </div>
+        <!-- Contenitore Loghi  -->
+
+        <!-- Lista menu -->
+        <ul class="menu">
+          <!-- Parte Home -->
           <li>
             <a href="" class="svg"
               ><img src="img/home.svg" alt="home" /> <span>Home</span></a
             >
           </li>
+          <!-- Parte Home -->
+
+          <!-- Parte Search -->
           <li>
             <a href="" class="svg"
               ><img src="img/search.svg" alt="home" /> <span>Cerca</span></a
             >
           </li>
+          <!-- Parte Search -->
+
+          <!-- Parte libreria -->
           <li>
             <a href="" class="svg"
               ><img src="img/libreria.svg" alt="home" />
               <span>La tua libreria</span></a
             >
           </li>
+          <!-- Parte libreria -->
         </ul>
-
-        <div class="nav-container flex">
-          <div class="Playlist">
-            <h3>Playlist</h3>
-            <ul>
-              <li>
-                <a href=""
-                  ><i class="fa-solid fa-square-plus"></i>
-                  <span>La tua libreria</span></a
-                >
-              </li>
-              <li>Nome Playlist</li>
-              <li>Nome Playlist</li>
-              <li>Nome Playlist</li>
-              <li>Nome Playlist</li>
-              <li>Nome Playlist</li>
-              <li>Nome Playlist</li>
-              <li>Nome Playlist</li>
-              <li>Nome Playlist</li>
-            </ul>
-          </div>
-          <div class="nav-container2">
-            <div class="opzioni">
-              <a href="#" class="scarica"
-                ><img src="img/download.svg" alt="download" class="scarica" />
-                <span>Installa app</span></a
-              >
-            </div>
-            <div class="profilo-box">
-              <a href="" class="svg"
-                ><img src="img/profile.svg" alt="profile" class="profilo" />
-                <span>JHON DOE</span></a
-              >
-            </div>
-          </div>
+        <!-- Lista menu -->
+        <!-- contenitore Playlisr -->
+        <div class="playlist">
+          <!-- Intestazione PLaylist con font Awesome -->
+          <h3>Playlist</h3>
+          <a href=""
+            ><i class="fa-solid fa-square-plus"></i>
+            <span>Crea Playlist</span></a
+          >
+          <!-- Intestazione PLaylist con font Awesome -->
+          <!-- Lista delle Playlist create -->
+          <ul>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+            <li>Nome Playlist</li>
+          </ul>
+          <!-- Lista delle Playlist create -->
         </div>
+        <!-- contenitore Playlisr -->
+
+        <!-- contenitore Profilo/opzioni -->
+        <div class="nav-container2">
+          <!-- Opzioni  -->
+          <div class="opzioni">
+            <!-- link per scaricare app -->
+            <a href="#" class="scarica"
+              ><img src="img/download.svg" alt="download" class="scarica" />
+              <span>Installa app</span></a
+            >
+            <!-- link per scaricare app -->
+          </div>
+          <!-- Opzioni  -->
+
+          <!-- Profilo  -->
+          <div class="profilo-box">
+            <a href="" class="svg"
+              ><img src="img/profile.svg" alt="profile" id="profilo" />
+              <span>Jhon Doe</span></a
+            >
+          </div>
+          <!-- Profilo  -->
+        </div>
+        <!-- contenitore Profilo/opzioni -->
       </nav>
+      <!-- Nav bar aside left -->
       <div class="container-major flex">
         <div class="bix"></div>
         <div class="bix"></div>
@@ -119,6 +194,7 @@
         <div class="bix"></div>
       </div>
     </main>
+    <!-- Contenitore parte top -->
     <footer></footer>
   </body>
 </html>
