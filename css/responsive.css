@@ -3,7 +3,34 @@
 da 0 a 768 
 ***********
 */
+@media screen and (max-width: 992px) {
+  .container-major {
+    max-width: 960px;
+  }
+  .container-major .raw-album .col-album {
+    width: calc(100% / 3);
+  }
+  .raw-album .col-album h3 {
+    font-size: 16px;
+  }
+}
+
+/* 
+***********
+da 0 a 768 
+***********
+*/
 @media screen and (max-width: 768px) {
+  .container-major {
+    max-width: 720px;
+  }
+  .container-major .raw-album .col-album {
+    width: calc(100% / 2);
+    font-size: 11px;
+  }
+  .raw-album .col-album h3 {
+    font-size: 0.6875rem;
+  }
 }
 
 /* 

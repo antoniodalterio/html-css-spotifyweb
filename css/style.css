@@ -12,9 +12,9 @@ debug
 }
 
 .debug .container-major {
-  padding: 20px;
   overflow: auto;
-  flex-wrap: wrap;
+  flex-grow: 1;
+  flex-direction: column;
 }
 
 .debug main {
@@ -27,8 +27,8 @@ debug
 }
 
 .bix {
-  width: 250px;
-  height: 250px;
+  width: calc(100% / 4 -20px);
+
   background-color: red;
   margin: 20px;
 }
@@ -128,4 +128,73 @@ nav {
   background-color: #717171;
   border-radius: 50%;
   overflow: hidden;
+}
+
+/* 
+MAin
+*/
+.container-album {
+  gap: 10px;
+  width: 100%;
+}
+
+.raw-button {
+  width: 100%;
+  padding: 30px 20px;
+  text-align: right;
+  background-color: rgba(0, 0, 0, 0.473);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.raw-button .btn {
+  padding: 15px 40px;
+  font-size: 13px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+
+.main-raw {
+  margin-top: 120px;
+}
+
+.main-raw .col {
+  width: 100%;
+  justify-content: center;
+  padding: 20px;
+  gap: 24px;
+  flex-wrap: wrap;
+  font-size: 12px;
+}
+
+.main-raw .col li {
+  font-weight: 700;
+  border-bottom: 2px solid #adff2f;
+}
+
+.container-major h2 {
+  padding: 30px 20px;
+}
+
+.container-major .raw-album {
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+.container-major .raw-album .col-album {
+  width: calc(100% / 6);
+  padding: 10px;
+  text-align: center;
+  line-height: 1.7;
+}
+
+.raw-album .col-album .bg-album img {
+  width: 100%;
+}
+
+.raw-album .col-album h3 {
+  font-size: 1rem;
 }
