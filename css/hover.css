@@ -1,0 +1,43 @@
+.bg-album:hover .position,
+li:hover hr {
+  display: block;
+}
+
+.bg-album:hover img {
+  filter: brightness(0.4);
+}
+
+.position:hover {
+  scale: 1.1;
+}
+
+.raw-button button:hover {
+  scale: 1.1;
+}
+footer i:hover,
+nav span:hover,
+nav li:hover,
+.main-raw a:hover {
+  color: white;
+}
+
+.main-raw ul:hover {
+  font-size: 16px;
+}
+
+.menu li:hover {
+  border-left: 2px solid #adff2f;
+}
+
+.profilo-box:hover {
+  scale: 1.1;
+}
+
+input[type='range']::-webkit-slider-thumb:hover {
+  -webkit-appearance: none;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #adff2f;
+  border: 1px solid #717171;
+}
