@@ -5,12 +5,6 @@
 debug
 */
 
-.debug footer {
-  height: 100px;
-  width: 100%;
-  background-color: grey;
-}
-
 .debug .container-major {
   overflow: auto;
   flex-grow: 1;
@@ -19,7 +13,7 @@ debug
 
 .debug main {
   background-color: #141922;
-  height: calc(100% - 100px);
+  height: calc(100% - 90px);
 }
 
 .flex {
@@ -47,6 +41,7 @@ nav {
   padding: 20px 0;
   overflow: hidden;
   flex-shrink: 0;
+  min-height: 150px;
 }
 
 .logo {
@@ -131,7 +126,9 @@ nav {
 }
 
 /* 
-MAin
+***********
+MAIN
+***********
 */
 .container-album {
   gap: 10px;
@@ -201,6 +198,7 @@ MAin
 
 .title-raw {
   margin: 20px 0;
+  width: 100%;
 }
 
 .title-raw h2 {
@@ -216,4 +214,56 @@ MAin
 .raw-album.suggeriti .radius img {
   object-fit: cover;
   border-radius: 50%;
+}
+
+/* 
+***********
+FOOTER
+***********
+*/
+
+footer {
+  height: 90px;
+  width: 100%;
+  position: relative;
+  z-index: 99;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #282828;
+}
+
+footer .footer-box {
+  background-color: red;
+  align-items: center;
+  border: 1px dashed black;
+}
+
+footer .bg-album {
+  width: 50px;
+}
+
+footer .col-album {
+  align-items: center;
+}
+
+footer .bg-album img {
+  width: 100%;
+  display: block;
+}
+
+.subtitle {
+  margin-left: 5px;
+}
+
+.subtitle h3 {
+  font-size: 0.6875rem;
+}
+.subtitle p {
+  font-size: 0.625rem;
+}
+
+footer .entity {
+  margin-left: 40px;
+  gap: 15px;
 }

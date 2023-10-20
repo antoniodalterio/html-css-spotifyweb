@@ -8,7 +8,7 @@ da 0 a 768
     max-width: 960px;
   }
   .container-major .raw-album .col-album {
-    width: calc(100% / 3 - 15px);
+    width: calc(100% / 4 - 15px);
   }
   .raw-album .col-album h3 {
     font-size: 16px;
@@ -30,6 +30,11 @@ da 0 a 768
   }
   .raw-album .col-album h3 {
     font-size: 0.6875rem;
+  }
+
+  footer .entity {
+    display: block;
+    margin-left: 20px;
   }
 }
 
@@ -54,7 +59,10 @@ da 0 a 576
     justify-content: center;
   }
 
-  #logo-large {
+  #logo-large,
+  nav ul li span,
+  .nav-container2 span,
+  .playlist {
     display: none;
   }
 
@@ -62,22 +70,14 @@ da 0 a 576
     display: block;
   }
 
-  .playlist {
-    display: none;
-  }
-
-  nav ul li span {
-    display: none;
-  }
-
-  .nav-container2 span {
-    display: none;
-  }
-
   .nav-container2 .opzioni {
     border-bottom: 0;
     margin: 0;
     display: flex;
     justify-content: center;
+  }
+
+  .subtitle p {
+    font-size: 0.625rem;
   }
 }
