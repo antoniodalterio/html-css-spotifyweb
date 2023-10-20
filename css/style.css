@@ -34,6 +34,7 @@ NAVBAR
  */
 
 nav {
+  width: 250px;
   background-color: black;
   display: flex;
   flex-direction: column;
@@ -42,6 +43,7 @@ nav {
   overflow: hidden;
   flex-shrink: 0;
   min-height: 150px;
+  align-items: flex-start;
 }
 
 .logo {
@@ -69,6 +71,7 @@ nav {
   min-height: 100px;
   overflow: hidden;
   padding-left: 20px;
+  width: 100%;
 }
 
 .playlist h3 {
@@ -136,14 +139,14 @@ MAIN
 }
 
 .raw-button {
-  width: 100%;
-  padding: 30px 20px;
+  width: calc(100% - 250px);
+  height: 90px;
+  padding: 20px 20px;
   text-align: right;
   background-color: rgba(0, 0, 0, 0.473);
   position: fixed;
   top: 0;
   right: 0;
-  left: 0;
 }
 
 .raw-button .btn {
@@ -234,7 +237,6 @@ footer {
 }
 
 footer .footer-box {
-  background-color: red;
   align-items: center;
   border: 1px dashed black;
 }
@@ -266,4 +268,73 @@ footer .bg-album img {
 footer .entity {
   margin-left: 40px;
   gap: 15px;
+}
+
+.player {
+  text-align: center;
+}
+
+footer .play {
+  width: 530px;
+}
+
+footer .player span {
+  font-size: 16px;
+  color: white;
+  margin: 0 20px;
+}
+
+footer .fa-circle-play {
+  font-size: 25px;
+  margin: 0 10px;
+}
+
+input[type='range'] {
+  -webkit-appearance: none;
+  width: calc(100% - 100px);
+  height: 5px;
+  padding: 0;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  background-color: #717171;
+  margin-top: 15px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -webkit-border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #adff2f;
+  border: 1px solid #717171;
+}
+
+.ranger {
+  text-align: center;
+}
+
+.ranger span {
+  color: white;
+  margin: 10px;
+  font-size: 10px;
+}
+
+.footer-box .player-2 {
+  width: 225px;
+}
+
+input.input-small {
+  width: calc(100% - 100px);
+  margin-top: 0;
+}
+
+.player-2 span {
+  font-size: 14px;
+  vertical-align: middle;
+  align-items: center;
+  margin: 0 10px;
+  justify-content: flex-end;
+  color: white;
 }
